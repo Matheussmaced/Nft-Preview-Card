@@ -1,0 +1,250 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+/*Textos*/
+
+p{
+    font-size: 18px;
+    color: hsl(215, 32%, 27%);
+   
+}
+
+a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#equilibrium{
+    position: relative;
+    left: 6%;
+    top: 3rem;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h1{
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 1;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+h2{
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    position: relative;
+    left: 6.5%;
+   
+}
+
+#paragrafo-principal{
+    padding-top: 4rem;
+    position: relative;
+    max-width: 90%;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+#crea, #name{
+    position: relative;
+    left: 11%;
+}
+
+#name{
+    left: 13%;
+}
+
+#name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+/*Imagens*/
+
+    #eth{
+        width: 90%;
+        border-radius: 7px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 1.5rem;
+        cursor: pointer;
+       
+    }
+
+    #view{
+        position: absolute;
+        display: block;
+        top: 1rem;
+        left: 4.5%;
+        width: 90%;
+        height: 55%;
+        min-width: 55%;
+        min-width: 90%;
+        border-radius: 7px;
+        cursor: pointer;
+        z-index: 1;     
+    }
+
+    @media(min-width: 375px) and (max-width: 1444px){
+        #view{
+            position: absolute;
+            display: block;
+            top: 1rem;
+            left: 4.5%;
+            width: 90%;
+            height: 48%;
+            min-width: 55%;
+            min-width: 90%;
+            border-radius: 7px;
+            cursor: pointer;
+            z-index: 1;     
+        }
+    }
+
+    #view:hover{
+        background-color: rgba(0, 255, 255, 0.6);
+        cursor: pointer;
+        background-image: url('icon-view.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 1;
+    }
+
+    @media(min-width: 375px) and (max-width: 1366px){
+        #view:hover{
+            color: #fff;
+            position: absolute;
+            top: 25px;
+            left: 20px;
+            background-color: rgba(0, 255, 255, 0.6);
+            width: 365px;
+            height: 365px;
+            border-radius: 7px;
+            cursor: pointer;
+            z-index: 1;
+            display: block;
+            background-image: url('icon-view.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    @media(min-width: 375px) and (max-width: 1365px){
+        #view:hover{
+            display: none;
+        }
+    }
+
+    #avatar{
+        width: 35px;
+        border-radius: 30px;
+        border: solid #fff 2px;
+        position: relative;
+        left: 7%;
+        
+    }
+
+    #icon{
+        position: relative;
+        left: 5%;
+    }
+
+
+    #days, #clock{
+        display: block;
+        align-items: center;
+        font-weight: 700;
+        position:absolute;
+        right: 30px;
+    }
+
+    #clock{
+        right: 125px;
+    }
+
+
+/*Containers*/
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    max-width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 8rem;
+    border-radius: 20px;
+    padding-bottom: 6rem;
+    box-shadow: 1px 1px 20px hsl(215, 52%, 10%);
+    
+}
+
+/*Desktop for HD*/
+
+@media(min-width: 375px) and (max-width: 1366px){
+    .container{
+        background-color: hsl(216, 50%, 16%);
+        max-width: 30%;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 1rem;
+        border-radius: 20px;
+        padding-bottom: 5rem;
+    }
+}
+
+/*Mobile*/
+
+@media(min-width: 375px) and (max-width: 450px){
+    .container{
+        background-color: hsl(216, 50%, 16%);
+        max-width: 85%;
+        margin: 0 auto;
+        position: relative;
+        top: 9rem;
+        border-radius: 20px;
+        padding-bottom: 6rem;
+    }
+}
+
+.container-filho{
+    display: flex;
+    position: relative;
+    top: 1rem;
+    align-items: center;
+}
+
+#creation{
+    position: relative;
+    top: 3.7rem;
+}
+
+/*Line*/
+
+#line{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid hsl(215, 32%, 27%);
+    position: relative;
+    top: 2.5rem;
+}
+
+#equilibrium{
+    cursor: pointer;
+}
+
